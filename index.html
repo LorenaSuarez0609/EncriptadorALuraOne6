@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <title>Encriptador One 6  Alura Latam</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="./asset/alura.svg" alt="Logo Alura Latam">
+    </header>
+    <main>
+        <div class="contenedor">
+            <div class="contenedor-encriptar">
+                <textarea class="caja-texto" id="caja-texto" cols="30" rows="10"
+                placeholder="Ingrese el texto aqui"></textarea>
+            </div> 
+            <div class="aviso">
+                <p><i class="bi bi-info-circle-fill"></i>  Letras Minusculas y sin acentos.</p>
+            </div>
+            <div class="contenedor-botones">
+                <button class="btn-encriptar" id="btn-encriptar" type="button" onclick="encriptar()"> 
+                    Encriptar
+                </button>
+                <button class="btn-desencriptar" id="btn-desencriptar" type="button" onclick="desencriptar()"> 
+                    Desencriptar
+                </button>
+            </div>
+            <div class="contenedor-resultado">
+                <img class= "imagen-buscador" id= "imagen-buscador" src="./asset/Muñeco.svg" alt="persona con lupa" id="muñeco"/>
+                <div class="contenedor-mensaje" id="contenedor-mensaje">
+                    <h3 id="titulo-mensaje">Ningun mensaje fue encontrado</h3>
+                    <p id="parrafo">Ingresa el texto que deseas <br> encriptar o desencriptar</p>
+                </div>
+                <div class="contenedor-copiar">
+                    <button class="btn-copiar" id="btn-copiar" type="button" onclick="copiar()">
+                        Copiar
+                    </button>
+                </div>
+                <div class="contenedor-respuesta">
+                    <p class="texto-resultado"></p> 
+                </div> 
+            </div>
+        </div>
+    </main>
+    <footer class="pie-pagina">
+        <div class="informacion">
+            <h4>Desarrollado por Lorena Suarez para Alura Latam ONE Grupo 6</h4>
+            <p> Copyright 2024, All rights reserved. Terms of use & privacy policy.</p>
+        </div>
+        <div class="informacion">
+            <h4>Mis Redes</h4>
+            <div class="redes">
+                <a href="http://www.linkedin.com/in/lorena-suarez0609" class="bi bi-linkedin"></a>
+                <a href="http://github.com/LorenaSuarez0609" class="bi bi-github"></a>
+            </div>
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
