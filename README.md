@@ -1,3 +1,4 @@
-# EncriptadorALuraOne6
+#challengeoneencriptador6
 Encriptador de texto creado para la cursada del grupo One 6 de Alura Latam - Challenger I 
-Soy Lorena Suarez, Ingeniera en informatica, estudiando desarrollo Web frond end.
+Hola, me llamo Lorena Suarez, soy Ingeniera en informatica, actualmente estudiando desarrollo Web frond end.
+#chellengeoneencriptador6
